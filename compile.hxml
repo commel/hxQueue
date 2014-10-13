@@ -1,0 +1,11 @@
+# windows
+-cp source
+-main hxqueue.app.Main
+-cs export/windows/
+  
+# linux
+--next
+-cp source
+-main hxqueue.app.Main
+-cpp export/linux
+-D HXCPP_M64
